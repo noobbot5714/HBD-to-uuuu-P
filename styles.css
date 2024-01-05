@@ -1,0 +1,85 @@
+/*body {
+    background: url(https://wallpapercave.com/uwp/uwp2430098.png);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 100px;
+}
+
+#wishesContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+    #wishesContainer {
+        padding: 15px;
+    }*/
+
+body {
+   background: url(https://wallpapercave.com/uwp/uwp2430098.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Open Sans', arial, sans-serif;
+}
+
+.clearfix:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+strong {
+   font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+
+h1, h2{
+color: #55B4B0;
+text-align: center;
+margin-bottom: 27px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  opacity: 90%;
+}
+
+.wish img {
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.cat img {
+    width: 100%;
+  border-radius: 20px 20px 20px 20px;   
+}
+
+.hugs img {
+    width: 100%;
+  border-radius: 20px 20px 20px 20px;
+}
